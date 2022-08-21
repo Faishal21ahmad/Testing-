@@ -14,7 +14,6 @@ h1 {
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -24,15 +23,55 @@ h1 {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
 }
-</style>
+
+
+.blak_putih{
+    float: left;
+    width: 70px;
+    height: 42600px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.control_scroll {
+    width: 70px;
+    height: 75px;
+    background-color: #04AA6D;
+    z-index: 1;
+    position: fixed;
+   
+}
+
+.control_scroll1 {
+    margin-top: 75px;
+    width: 70px;
+    height: 50px;
+    background-color: #f0fc65;
+    z-index: 2;
+    position: fixed;
+   
+}
+
+.control_scroll2 {
+    margin-top: 125px;
+    width: 70px;
+    height: 40px;
+    background-color: #fc6565;
+    z-index: 3;
+    position: fixed;
+   
+}
+.bottom {
+    padding: 100px;
+    background-color: #333;
+}
+
